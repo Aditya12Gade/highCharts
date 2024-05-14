@@ -1,0 +1,57 @@
+/* App.css */
+
+.container {
+  display: flex;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.inputBox, .outputBox {
+  flex: 1; /* Each box takes up equal space */
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* Optional: Adds a border for visual separation */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.inputBox {
+  background-color: #f0f0f0; /* Optional: Background color for input box */
+  font-size: 20px;
+}
+
+.outputBox {
+  background-color: #e0e0e0; /* Optional: Background color for output box */
+}
+
+p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.inputArea {
+  width: 80%; /* Adjust width as needed */
+  height: 60%; /* Adjust height as needed */
+  margin-top: 20px; /* Space between the paragraph and the textarea */
+  padding: 10px;
+  font-size: 1em;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.updateButton {
+  margin-top: 20px; /* Space between the textarea and the button */
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #101110; /* Green background */
+  color: white; /* White text */
+}
+
+.updateButton:hover {
+  background-color: #0a0a0a; /* Darker green on hover */
+}
